@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Author Information</title>
+</head>
+<body>
+<a href="{% url 'home' %}" class="back-button"> Home</a>
+    <h1>Author Information</h1>
+    <p>Name: {{ author.name }}</p>
+    <p>Birth Date: {{ author.birth_date }}</p>
+    <p>Nationality: {{ author.nationality }}</p>
+</body>
+</html>
